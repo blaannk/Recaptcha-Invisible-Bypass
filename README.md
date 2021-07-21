@@ -36,9 +36,11 @@ Let's now look at the **payload** of the reload request
 3 - Find **BG** (Not me :D, the other BG inside the payload **from the character** ! **to the character** *)
 
 Starts here
+
 ![](https://i.ibb.co/nDTFfsY/bg1.png)
 
 Ends here
+
 ![](https://i.ibb.co/BwMRhPt/bg2.png)
 
 ### STEP 4
