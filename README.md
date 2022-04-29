@@ -67,7 +67,7 @@ def generateresponse(anchorurl, reloadurl, payload):
     r1 = s.get(anchorurl).text
     token1 = r1.split('recaptcha-token" value="')[1].split('">')[0]
     payload = payload.replace("<token>", str(token1))
-    r2 = s.post(reloadurl, data=payload)
+    r2 = s.post(reloadurl, data=payload, headers={"Content-Type": "application/x-www-form-urlencoded"})
     try:
         token2 = str(r2.text.split('"rresp","')[1].split('"')[0])
         return token2
