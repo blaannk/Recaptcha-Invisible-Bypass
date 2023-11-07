@@ -25,15 +25,15 @@ Inspect network to find the **recaptcha reload url**.
 ### STEP 3
 Let's now look at the **payload** of the reload request
 
-1 - Find **CHR** [xx, xx, xx] (2023 : no longer required, you can leave it blank in the script)
+1 - Find **CHR** [xx, xx, xx] **(2023 : no longer required, you can leave it blank in the script)**
 
 ![](https://i.ibb.co/sjmFYCc/chr.png)
 
-2 - Find **VH** (The **number sequence** after the character *) (2023 : no longer required, you can leave it blank in the script)
+2 - Find **VH** (The **number sequence** after the character *) **(2023 : no longer required, you can leave it blank in the script)**
 
 ![](https://i.ibb.co/HrchVCB/vh.png)
 
-3 - Find **BG** (Not me :D, the other BG inside the payload **from the character** ! **to the character** *) (2023 : no longer required, you can leave it blank in the script)
+3 - Find **BG** (Not me :D, the other BG inside the payload **from the character** ! **to the character** *) **(2023 : no longer required, you can leave it blank in the script)**
 
 Starts here
 
@@ -74,6 +74,8 @@ def generateresponse(anchorurl, reloadurl, payload):
     except:
         return ""
 ```
+
+**2023 update : You can just send the token retrieved using the GET request to the anchor url and it will still work.**
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
