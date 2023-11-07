@@ -25,15 +25,15 @@ Inspect network to find the **recaptcha reload url**.
 ### STEP 3
 Let's now look at the **payload** of the reload request
 
-1 - Find **CHR** [xx, xx, xx]
+1 - Find **CHR** [xx, xx, xx] (2023 : no longer required, you can leave it blank in the script)
 
 ![](https://i.ibb.co/sjmFYCc/chr.png)
 
-2 - Find **VH** (The **number sequence** after the character *)
+2 - Find **VH** (The **number sequence** after the character *) (2023 : no longer required, you can leave it blank in the script)
 
 ![](https://i.ibb.co/HrchVCB/vh.png)
 
-3 - Find **BG** (Not me :D, the other BG inside the payload **from the character** ! **to the character** *)
+3 - Find **BG** (Not me :D, the other BG inside the payload **from the character** ! **to the character** *) (2023 : no longer required, you can leave it blank in the script)
 
 Starts here
 
